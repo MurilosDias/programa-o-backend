@@ -27,7 +27,7 @@ public class Aula01Variaveis {
        Integer ValorInteiroABs = 20;
        Long valorLongoABs = 20;
 
-       System.out.ptint('o valorInteiro é: " + , e o valor de valorinteiroLongo é: + valorInteiroLongo);
+       System.out.ptint("o valorInteiro é: " + , e o valor de valorinteiroLongo é: + valorInteiroLongo);
      
        // Variáveis Decimais
 
@@ -43,5 +43,3 @@ public class Aula01Variaveis {
 
        
     }
-
-}
