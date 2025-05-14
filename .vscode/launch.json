@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Tabuada",
+            "request": "launch",
+            "mainClass": "com.mycompany.Tabuada",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
             "name": "Ex01",
             "request": "launch",
             "mainClass": "com.mycompany.avaliacao.Ex01",
