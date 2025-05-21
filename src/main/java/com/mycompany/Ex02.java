@@ -2,7 +2,7 @@ package com.mycompany;
 
 import java.util.Scanner;
 
-public class Tabuada {
+public class Ex02 {
     public static void main(String[] args) {
         int numero = 1;
 

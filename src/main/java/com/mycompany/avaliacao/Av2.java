@@ -1,6 +1,6 @@
-package com.mycompany;
+package com.mycompany.avaliacao;
 
-public class av2 {
+public class Av2 {
 
     public static void main(String[] args) {
         //01

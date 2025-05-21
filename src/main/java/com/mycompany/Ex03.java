@@ -16,7 +16,7 @@ public class Ex03 {
         // Calcular o IMC
         double imc = peso / (altura * altura);
 
-        System.out.println("Classificação do IMC:");
+        System.out.printf("\nSeu IMC é %.1f, ",imc);
         if (imc < 16) {
             System.out.println("Magreza grau III");
         } else if (imc <= 16.9) {

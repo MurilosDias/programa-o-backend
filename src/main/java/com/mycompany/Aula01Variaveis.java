@@ -2,44 +2,42 @@ package com.mycompany;
 
 public class Aula01Variaveis {
 
-    public static void main(String[] args) {
-        // Variável lógica
+  public static void main(String[] args) {
+    // Variável lógica
 
-        // Tipo primitívo
-        boolean valorLogicoPrimitivo = true;
+    // Tipo primitívo
+    boolean valorLogicoPrimitivo = true;
 
-        // Exibe o valor
-        System.out.println(valorLogicoPrimitivo);
+    // Exibe o valor
+    System.out.println(valorLogicoPrimitivo);
 
+    // Tipo abstrato
+    boolean valorLogicoAbstrato = false;
+    // Exibe com texto
+    System.out.println("O valor a variavel valorLogicoAbstrato é: " + valorLogicoAbstrato);
 
-        // Tipo abstrato
-        boolean valorlogicoabstrato = false; 
-        // Exibe com texto
-        System.out.println("O valor a variavel valorLogicoAbstrato é: " + valorLogicoAbstrato);
-    
-      // Variáveis inteira
+    // Variáveis inteira
 
-       // tipos primitivos
-       int valorInteiro = 10; //32 bits
-       long valorInteiroLongo = 10l; // 64bits 
+    // tipos primitivos
+    int valorInteiro = 10; // 32 bits
+    long valorInteiroLongo = 10l; // 64bits
 
-       // Tipos abstrato
-       Integer ValorInteiroABs = 20;
-       Long valorLongoABs = 20;
+    // Tipos abstrato
+    Integer valorInteiroABs = 20;
+    Long valorLongoABs = 20L;
 
-       System.out.ptint("o valorInteiro é: " + , e o valor de valorinteiroLongo é: + valorInteiroLongo);
-     
-       // Variáveis Decimais
+    System.out.print("o valorInteiro é: " + valorInteiro + ", e o valor de valorinteiroLongo é:" + valorInteiroLongo);
 
-       // tipos primitivos
-        float numeroFloat = 10.5f; // 32 bits
-        double numeroDouble = 10.5f; // 64 bits
+    // Variáveis Decimais
 
-       // Tipos abstrato
-        float numeroFloatABs = 10.5f; 
-        double numeroDoubleABs=10.5f; 
+    // tipos primitivos
+    float numeroFloat = 10.5f; // 32 bits
+    double numeroDouble = 10.5f; // 64 bits
 
-       System.out.ptint('o valorInteiro é: " + , e o valor de valorinteiroLongo é: + valorInteiroLongo);
+    // Tipos abstrato
+    float numeroFloatABs = 10.5f;
+    double numeroDoubleABs = 10.5f;
 
-       
-    }
+    System.out.print("o numeroFloat é: " + numeroFloat + ", e o valor de numeroDouble é: " + numeroDouble);
+  }
+}

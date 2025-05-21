@@ -44,22 +44,22 @@ public class Aula05Repeticao {
             System.out.println("Digite um número: (0 para parar)");
             num1 = scan.nextInt();
             System.out.println("Você digitou " + num1 + "!!");
-
-            System.out.println("Execução encerrada");
-
-            /**
-             * Do While (execute, enquanto)
-             *
-             * É executada uma estrutura de código e após é validada a condição
-             */
-            int num2;
-            do {
-                Scanner scan = new Scanner(System.in);
-                System.out.println("Digite um número: (0 para Sair)");
-                num2 = scan.nextInt();
-            } while (num2 != 0);
-
-            System.out.println("Execução encerrada");
         }
+
+        System.out.println("Execução encerrada");
+
+        /**
+         * Do While (execute, enquanto)
+         *
+         * É executada uma estrutura de código e após é validada a condição
+         */
+        int num2;
+        do {
+            Scanner scan = new Scanner(System.in);
+            System.out.println("Digite um número: (0 para Sair)");
+            num2 = scan.nextInt();
+        } while (num2 != 0);
+
+        System.out.println("Execução encerrada");
     }
 }
